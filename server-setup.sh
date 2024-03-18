@@ -73,13 +73,14 @@ echo "eula=true" > eula.txt
 # Configure offline mode if specified
 offline_mode "$OFFLINE_MODE"
 
-echo  "PLEASE READ THE INSTRUCTIONS
+echo  "PLEASE READ THE INSTRUCTIONS CAREFULLY
+Please Change Your Current Working Directory to 'enderman'
 First, run the command 
-\"java -jar server.jar\" 
+\"cd enderman; java -jar server.jar\" 
 and wait for the \"Done\" message before closing the server. 
 Then, install essential plugins by running 
-\"cd .. ; ./server-essentials.sh\" 
-(Goes parent directory and runs source server-essentials.sh)
+\"cd ..; ./server-essentials.sh\" 
+(Goes to the parent directory and runs source server-essentials.sh)
 and following the on-screen instructions. 
 
 If you don't have a Playit account, create one by clicking on the provided links. Finally, remember to run 

@@ -2,7 +2,7 @@
 With these scripts, you can run your server on any cloud console like Google Cloud
 
 (This requires suitable JRE to be installed on the server)
-
+Clone this repository and change the current-working directory to this directory.
 First of all, run
 ```bash
 chmod +x server-setup.sh server-essentials.sh
